@@ -1,0 +1,25 @@
+$accent-color: red; /*задает цвет активной кнопки меню header*/
+$default-color: #8d8d8d;
+// $bg-color: #f6f6f6
+
+%roboto-500{
+    font-family: 'Roboto-Bold';
+    font-weight: 500;
+
+}
+
+%btn{
+    padding: 12px 26px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: $accent-color;
+    box-shadow: 0px 7px 20px 0px rgba(255, 17, 48, 0.3);
+}
+
+%checkbox-hidden{
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    position: absolute;
+}
